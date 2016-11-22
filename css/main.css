@@ -4,16 +4,26 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-
-
 html {
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
   color: #222;
+}
+
+body {
+margin: 0;
+padding: 0;
+}
+
+article p {
+
+}
+
+article ol {
+
 }
 
 *, *::before, *::after {
@@ -22,6 +32,7 @@ html {
 
 article {
   max-width: 43em;
+  margin: 0 auto;
 }
 
 article h1 {
@@ -69,10 +80,6 @@ blockquote {
   html {
     font-size: 120%;
     line-height: 1.5;
-  }
-
-  article {
-    margin: 0 auto;
   }
 
   h1,
